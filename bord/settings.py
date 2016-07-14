@@ -8,16 +8,19 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
 # Useful constants.
+
 _TRUTHY_STRINGS = ('true', 'yes', 'on')
 
 
 # Useful functions.
+
 def getenv_bool(key):
     value = os.environ.get(key, 'false')
     return value.lower() in _TRUTHY_STRINGS
 
 
 # Security stuff.
+
 ALLOWED_HOSTS = ['bord.uk', 'bord-red-dragon.herokuapp.com']
 
 DEBUG = getenv_bool('DEBUG')
@@ -28,12 +31,16 @@ SECRET_KEY = os.environ['SECRET_KEY']
 # Application definition
 
 INSTALLED_APPS = [
+    # Django
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # Third Party
+    # Local
+    'core',
 ]
 
 MIDDLEWARE = [

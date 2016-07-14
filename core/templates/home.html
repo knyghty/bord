@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <p>Lol this is just a colour test for now m8.</p>
+  <p class="black">Black</p>
+  <p class="red">Red</p>
+  <p class="green">Green</p>
+  <p class="brown">Brown</p>
+  <p class="blue">Blue</p>
+  <p class="magenta">Magenta</p>
+  <p class="cyan">Cyan</p>
+  <p class="gray">Grey (boring default)</p>
+
+  <p class="darkgray">Dark Gray</p>
+  <p class="light-red">Light Red</p>
+  <p class="light-green">Light Green</p>
+  <p class="yellow">Yellow</p>
+  <p class="light-blue">Light Blue</p>
+  <p class="light-magenta">Light Magenta</p>
+  <p class="light-cyan">Light Cyan</p>
+  <p class="white">White</p>
+
+  <p><span class="red">▓</span><span class="brown">▓<span class="yellow">▓</span><span class="green">▓</span><span class="light-blue">▓</span><span class="blue">▓</span><span class="magenta">▓</span></p>
+
+  <p>
+    Making shit <strong>bold</strong> should also make it the lighter version of the colour, rather than literally
+    making it bold.
+
+  <p class="red">So the <b>bold bits</b> in this red text should be <b>all light and cool lookin'</b>.
+{% endblock %}
