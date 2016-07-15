@@ -21,7 +21,7 @@ def getenv_bool(key):
 
 # Security stuff.
 
-ALLOWED_HOSTS = ['bord.uk', 'bord-red-dragon.herokuapp.com']
+ALLOWED_HOSTS = ['bord.cricket', 'www.bord.cricket', 'bord-red-dragon.herokuapp.com']
 
 DEBUG = getenv_bool('DEBUG')
 
