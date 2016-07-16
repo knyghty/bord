@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # Third Party
     # Local
+    'accounts',
     'core',
 ]
 
@@ -83,7 +84,7 @@ DATABASES = {
 }
 
 
-# Passwords.
+# Authentication.
 
 PASSWORD_HASHERS = [
     'django.contrib.auth.hashers.Argon2PasswordHasher',
@@ -103,6 +104,8 @@ AUTH_PASSWORD_VALIDATORS = [
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
+
+AUTH_USER_MODEL = 'accounts.User'
 
 
 # Internationalization.
