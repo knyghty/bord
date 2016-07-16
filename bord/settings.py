@@ -1,3 +1,5 @@
+"""Settings for BORD."""
+
 import os
 
 import dj_database_url
@@ -14,7 +16,7 @@ _TRUTHY_STRINGS = ('true', 'yes', 'on')
 
 # Useful functions.
 
-def getenv_bool(key):
+def _getenv_bool(key):
     value = os.environ.get(key, 'false')
     return value.lower() in _TRUTHY_STRINGS
 
@@ -23,7 +25,7 @@ def getenv_bool(key):
 
 ALLOWED_HOSTS = ['bord.cricket', 'www.bord.cricket', 'bord-red-dragon.herokuapp.com']
 
-DEBUG = getenv_bool('DEBUG')
+DEBUG = _getenv_bool('DEBUG')
 
 SECRET_KEY = os.environ['SECRET_KEY']
 
