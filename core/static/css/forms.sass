@@ -1,0 +1,34 @@
+@import colours
+@import fonts
+
+form
+    & > div
+        margin: 1em 0
+
+label
+    color: $white
+
+button, input, textarea
+    +font-stack
+    background: $darkgray
+    border: 2px solid $gray
+    color: $gray
+    margin: 4px 0
+    padding: 4px 8px
+
+    &:focus
+        border-color: $light-blue
+        outline: none
+
+button:hover
+    color: $white
+
+input
+    &:invalid
+        color: $light-red
+
+    &:valid
+        color: $light-green
+
+.errorlist
+    color: $light-red
