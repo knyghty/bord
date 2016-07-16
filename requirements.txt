@@ -2,8 +2,10 @@ apipkg==1.4
 argon2-cffi==16.1.0
 cffi==1.7.0
 coverage==4.1
+coveralls==1.1
 dj-database-url==0.4.1
 Django==1.10b1
+docopt==0.6.2
 execnet==1.4.1
 flake8==2.6.2
 flake8-docstrings==0.2.8
@@ -20,6 +22,7 @@ pytest==2.9.2
 pytest-cov==2.3.0
 pytest-django==2.9.1
 pytest-xdist==1.14
+requests==2.10.0
 six==1.10.0
 testfixtures==4.10.0
 uWSGI==2.0.13.1
