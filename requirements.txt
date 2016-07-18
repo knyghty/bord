@@ -4,7 +4,7 @@ cffi==1.7.0
 coverage==4.1
 coveralls==1.1
 dj-database-url==0.4.1
-Django==1.10b1
+Django==1.10rc1
 django-registration==2.1.2
 docopt==0.6.2
 execnet==1.4.1
