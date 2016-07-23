@@ -18,6 +18,6 @@ def test_get_short_name(user):
 
 
 @pytest.mark.django_db
-def test_get_long_name(user):
-    """Test a user's long name is their username."""
-    assert user.get_long_name() == 'Test'
+def test_get_full_name(user):
+    """Test a user's full name is their username."""
+    assert user.get_full_name() == 'Test'
