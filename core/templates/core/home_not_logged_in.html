@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h1>Yo like choose an action m8</h1>
+
+  <ul>
+    <li><a href="{% url 'accounts:register' %}">Register a new character</a></li>
+    <li><a href="#">Log in to an existing character</a></li>
+  </ul>
+{% endblock %}
