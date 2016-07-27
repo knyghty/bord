@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     # Third Party
+    'anymail',
     # Local
     'accounts',
     'core',
@@ -129,3 +130,16 @@ USE_TZ = True
 STATIC_ROOT = os.path.join(BASE_DIR, 'collected_static')
 
 STATIC_URL = '/static/'
+
+
+# Email
+
+ADMINS = [('Tom Carrick', 'knyght+bord@knyg.ht')]
+
+ANYMAIL = {
+    'MAILGUN_API_KEY': 'key-49b5617b8deeb55831bb49c0b72623c4',
+}
+
+DEFAULT_FROM_EMAIL = 'noreply@bord.cricket'
+
+EMAIL_BACKEND = 'anymail.backends.mailgun.MailgunBackend'
