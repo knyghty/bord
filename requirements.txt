@@ -12,7 +12,7 @@ docopt==0.6.2
 execnet==1.4.1
 flake8==3.3.0
 flake8-docstrings==1.1.0
-flake8-isort==2.2
+flake8-isort==2.2.1
 isort==4.2.5
 mccabe==0.6.1
 pep257==0.7.0
@@ -22,7 +22,7 @@ pycodestyle==2.3.1
 pycparser==2.17
 pyflakes==1.5.0
 pytest==3.0.7
-pytest-cov==2.5.0
+pytest-cov==2.5.1
 pytest-django==3.1.2
 pytest-xdist==1.16.0
 requests==2.14.2
