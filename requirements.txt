@@ -1,6 +1,6 @@
 apipkg==1.4
 argon2-cffi==18.1.0
-cffi==1.11.2
+cffi==1.11.3
 coverage==4.4.2
 coveralls==1.2.0
 dj-database-url==0.4.2
@@ -24,7 +24,7 @@ pyflakes==1.6.0
 pytest==3.3.2
 pytest-cov==2.5.1
 pytest-django==3.1.2
-pytest-xdist==1.21.0
+pytest-xdist==1.22.0
 requests==2.18.4
 six==1.11.0
 testfixtures==5.3.1
