@@ -7,7 +7,7 @@ dj-database-url==0.4.2
 Django==2.0.1
 django-anymail==1.2
 django-coverage-plugin==1.5.0
-django-registration==2.4
+django-registration==2.4.1
 docopt==0.6.2
 execnet==1.5.0
 flake8==3.5.0
