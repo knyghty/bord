@@ -23,7 +23,7 @@ pycparser==2.18
 pyflakes==2.0.0
 pytest==3.6.1
 pytest-cov==2.5.1
-pytest-django==3.2.1
+pytest-django==3.3.0
 pytest-xdist==1.22.2
 requests==2.19.1
 six==1.11.0
