@@ -28,4 +28,4 @@ pytest-xdist==1.22.2
 requests==2.19.1
 six==1.11.0
 testfixtures==6.2.0
-uWSGI==2.0.17
+uWSGI==2.0.17.1
