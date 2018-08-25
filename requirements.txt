@@ -24,7 +24,7 @@ pyflakes==2.0.0
 pytest==3.7.2
 pytest-cov==2.5.1
 pytest-django==3.4.2
-pytest-xdist==1.22.5
+pytest-xdist==1.23.0
 requests==2.19.1
 six==1.11.0
 testfixtures==6.2.0
