@@ -4,7 +4,7 @@ cffi==1.11.5
 coverage==4.5.1
 coveralls==1.5.0
 dj-database-url==0.5.0
-Django==2.1
+Django==2.1.1
 django-anymail==4.1
 django-coverage-plugin==1.5.0
 django-registration==2.4.1
