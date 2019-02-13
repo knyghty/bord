@@ -1,6 +1,6 @@
 apipkg==1.5
 argon2-cffi==19.1.0
-cffi==1.11.5
+cffi==1.12.0
 coverage==4.5.2
 coveralls==1.5.1
 dj-database-url==0.5.0
