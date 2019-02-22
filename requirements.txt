@@ -17,7 +17,7 @@ isort==4.3.4
 mccabe==0.6.1
 pep257==0.7.0
 psycopg2==2.7.7
-py==1.7.0
+py==1.8.0
 pycodestyle==2.5.0
 pycparser==2.19
 pyflakes==2.1.0
