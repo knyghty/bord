@@ -2,7 +2,7 @@ apipkg==1.5
 argon2-cffi==19.1.0
 cffi==1.12.2
 coverage==4.5.3
-coveralls==1.6.0
+coveralls==1.7.0
 dj-database-url==0.5.0
 Django==2.1.7
 django-anymail==6.0
