@@ -16,7 +16,7 @@ flake8-isort==2.7.0
 isort==4.3.20
 mccabe==0.6.1
 pep257==0.7.0
-psycopg2==2.8.2
+psycopg2==2.8.3
 py==1.8.0
 pycodestyle==2.5.0
 pycparser==2.19
