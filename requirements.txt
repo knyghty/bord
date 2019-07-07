@@ -5,7 +5,7 @@ coverage==4.5.3
 coveralls==1.8.1
 dj-database-url==0.5.0
 Django==2.2.3
-django-anymail==6.0.1
+django-anymail==6.1.0
 django-coverage-plugin==1.6.0
 django-registration==3.0.1
 docopt==0.6.2
