@@ -4,12 +4,12 @@ cffi==1.12.3
 coverage==4.5.4
 coveralls==1.8.2
 dj-database-url==0.5.0
-Django==2.2.4
+Django==2.2.5
 django-anymail==6.1.0
 django-coverage-plugin==1.6.0
 django-registration==3.0.1
 docopt==0.6.2
-execnet==1.7.0
+execnet==1.7.1
 flake8==3.7.8
 flake8-docstrings==1.4.0
 flake8-isort==2.7.0
@@ -21,7 +21,7 @@ py==1.8.0
 pycodestyle==2.5.0
 pycparser==2.19
 pyflakes==2.1.1
-pytest==5.1.1
+pytest==5.1.2
 pytest-cov==2.7.1
 pytest-django==3.5.1
 pytest-xdist==1.29.0
